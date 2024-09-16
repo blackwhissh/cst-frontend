@@ -1,0 +1,34 @@
+.clickable {
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+#scheduleTable th, #scheduleTable td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#scheduleTable th {
+    font-size: 16px;
+}
+
+#scheduleTable td {
+    font-size: 14px;
+}
+
+#modalBody ul {
+    list-style: none;
+    padding: 0;
+}
+
+#modalBody li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button:disabled {
+    order: 0;
+}
